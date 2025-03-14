@@ -44,7 +44,3 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-
-  - jekyll-gist
-  - jekyll-redirect-from
-  - jemoji
