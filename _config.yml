@@ -38,6 +38,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
   - jekyll-gist
   - jekyll-redirect-from
   - jemoji
