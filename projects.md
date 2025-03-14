@@ -1,19 +1,13 @@
 ---
-layout: single
+layout: collection
 title: "Projects"
 permalink: /projects/
+collection: projects
+entries_layout: grid
 ---
 
-# 🚀 Featured Projects
+# 🚀 My Projects
 
-## 🔹 Automated REDCap Data Pipeline {#redcap-pipeline}
-**Python | REDCap API | Pandas**  
-Built a **GUI-based pipeline** that automates **data transfer between REDCap projects**.
+A selection of **data science, engineering, and research projects** that I've built.
 
-## 🔹 Collaborative Filtering Recommender {#recommender}
-**Python | NumPy | Scikit-learn**  
-Developed a **machine learning model** that provides personalized recommendations.
-
-## 🔹 Research Recruitment Dashboards {#dashboard}
-**Tableau | SQL | MS Access**  
-Designed **department-wide dashboards** that assist leadership in decision-making.
+{% include collection %}
