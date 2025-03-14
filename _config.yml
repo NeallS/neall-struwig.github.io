@@ -1,6 +1,47 @@
 title: "Neall Struwig | Data Science Portfolio"
-description: "Data science, analytics, and engineering projects."
-author: "Neall Struwig"
-theme: minimal-mistakes  # You can replace 'minima' with another theme
-baseurl: "" # Keep this empty
-url: "https://neall-struwig.github.io" # Your GitHub Pages URL
+description: "Showcasing my work in data science, engineering, and research."
+baseurl: ""  # Keep this empty for GitHub Pages
+url: "https://neall-struwig.github.io"
+
+# Theme setup
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Site settings
+author:
+  name: "Neall Struwig"
+  avatar: "/assets/profile.jpg"  # Upload a profile picture here (optional)
+  bio: "Data Engineer | Research Specialist | Machine Learning Enthusiast"
+  location: "Toronto, Canada"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/neall-struwig"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/your-profile"
+
+# Layout settings
+defaults:
+  - scope:
+      path: ""  
+      type: "posts"
+    values:
+      layout: "single"
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
+
+# Plugins (required for Minimal Mistakes)
+plugins:
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-seo-tag
