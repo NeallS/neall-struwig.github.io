@@ -1,6 +1,6 @@
 title: "Neall Struwig | Data Science Portfolio"
 description: "Data science, analytics, and engineering projects."
 author: "Neall Struwig"
-theme: creative  # You can replace 'minima' with another theme
+theme: minimal-mistakes  # You can replace 'minima' with another theme
 baseurl: "" # Keep this empty
 url: "https://neall-struwig.github.io" # Your GitHub Pages URL
